@@ -16,5 +16,6 @@ Alterações:
 - Digitar um ´npm init -y´ no terminal
 - no package.json:
     - Mudar o nome ("name") para como você quiser e colocar o seu github no "author"
+    - Colocar o nome do repositório igual o do "name" do package.json
 
 # Envio e recebimento de email
