@@ -1,0 +1,10 @@
+{
+  "name": "email-marketing",
+  "version": "1.0.0",
+  "description": "Aula de Email Marketing",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "annaagabi",
+  "license": "ISC"
+}
