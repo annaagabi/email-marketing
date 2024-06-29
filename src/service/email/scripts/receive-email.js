@@ -1,4 +1,6 @@
 // console.log("funcionou")
+// const dotenv = require('dotenv')
+// dotenv.config()
 
 (function(){ // Função anônima
     // console.log("entrou aqui")
@@ -11,10 +13,11 @@
 document.getElementById("contact-form").addEventListener("submit",function(e){
     e.preventDefault()
     // Service ID e template ID do Email JS (o template ID é o código do index com o email)
-    emailjs.sendForm("service_8dhuui9","template_wirhgjs", this).then(
+    emailjs.sendForm("service_8dhuui9","template_wirhgjs", this)
+    .then(
         function(){
             //Caso de certo
-            console.log("sucess")
+            console.log("success!")
             alert("Email enviado com sucesso")
         }
     ), function(err){
