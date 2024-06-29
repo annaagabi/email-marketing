@@ -15,13 +15,11 @@ align-items: center;
 color: black;
 background-color: #D1C2F2;
 width: 100%;
-font-size: 20px;
 ">
     <table style="width: 660px;
     margin-top: 40px;">
-        <tr style="
-        font-size: 40px;"> <!-- Linha -->
-            <td >Livraria Vellaris</td> <!-- Coluna -->
+        <tr> <!-- Linha -->
+            <td ><h1>Livraria Vellaris</h1></td> <!-- Coluna -->
             <td><img src="../contact-me/img/logo.png" alt=""></td> 
         </tr>
 
@@ -29,8 +27,10 @@ font-size: 20px;
             <td style="
                 text-align: justify;
                 padding-top: 20px;
-                ">Seja bem vindo a Livraria Vellaris, {{user_name}}!<br> Aqui você poderá acompanhar todas informações sobre as nossas novidades</td>
-            <td>{{message}}</td>
+                ">Seja bem vindo a {{from_name}}, {{user_name}}!<br> Aqui você poderá acompanhar todas informações sobre as nossas novidades</td>
+        </tr>
+        <tr>
+            <td style="padding-top: 30px;">{{message}}</td>
         </tr>
 
         <tr> 
