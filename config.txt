@@ -1,0 +1,8 @@
+const env ={
+    PUBLIC_KEY: "GTFgF8LiRkgI-YHA9",
+    SERVICE_ID: "service_8dhuui9",
+    TEMPLATE_ID_RECEIVE: "template_wirhgjs",
+    TEMPLATE_ID_SEND: "template_q1qb1w8"
+}
+
+export default env;
